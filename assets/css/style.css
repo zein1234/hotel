@@ -1,0 +1,47 @@
+:root {
+  /* Colors*/
+  --color-primary: #ee5057;
+  --color-secondary: #111;
+  /* fonts*/
+  --font-primary: 'Alkatra', cursive;
+  --font-secoundary: 'Open Sans', sans-serif;
+  --font-light: 400;
+  --font-bold:700;
+
+  --font-size-text: 13px;
+  --font-size-title: 20px;
+  --font-size-section-title: 48px;
+  /* size*/
+  --size-primary: 25px;
+  --margin-primart: var(--size-primary);
+  --padding-primart: var(--size-primary);
+  --height-primary: 120px;
+  --md : 768px;
+}
+@media (min-width: 768px){
+  .navbar {
+    height: var(--height-primary)
+  }
+}
+h1 {
+  font-family: var(--font-secoundary) ;
+  font-weight: var(--font-bold)
+}
+.navbar {
+  height: var(--height-primary)
+}
+
+.navbar .level-nav-link.nav-link {
+  padding: calc(var(--padding-primart) * 2) var(--padding-primart);
+
+}
+.navbar .level-nav-link.nav-link {
+  padding-right: var(--padding-primart) ;
+  padding-left: var(--padding-primart) ;
+
+}
+.navbar .level-nav-link.nav-link:hover {
+  padding: calc(var(--padding-primart) * 2);
+  background-color:  var(--color-primary);
+  color: white;
+}
