@@ -15,6 +15,7 @@
   --size-primary: 25px;
   --margin-primart: var(--size-primary);
   --padding-primart: var(--size-primary);
+  --padding-double: calc(var(--padding-primart) * 2)
   --height-primary: 120px;
   --md : 768px;
 }
@@ -44,4 +45,22 @@ h1 {
   padding: calc(var(--padding-primart) * 2);
   background-color:  var(--color-primary);
   color: white;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+}
+.hero {
+  background: url(../img/hero.jpg) no-repeat center center/cover;
+  height: 515px;
+}
+.search-form{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:15px;
+  padding: var(--padding-primart) var(--padding-double)
+
 }
