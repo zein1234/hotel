@@ -24,3 +24,7 @@
   --height-primary: 120px;
   --md : 768px;
 }
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 0;
+}

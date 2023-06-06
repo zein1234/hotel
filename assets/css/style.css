@@ -11,6 +11,14 @@ a{
 
   }
 }
+.navbar-brand{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand h1{
+margin: 0;
+}
 
 h1 {
   font-family: var(--font-secoundary) ;
@@ -20,7 +28,13 @@ h1 {
   height: var(--height-primary);
 }
 
+.navbar .level-nav-link.nav-link:active,
+.navbar .level-nav-link.nav-link:hover {
 
+    background-color:  var(--color-primary);
+    color: white !important;
+
+}
 .navbar .level-nav-link.nav-link {
   padding-left: var(--padding-primary);
   padding-right: var(--padding-primary);
@@ -227,4 +241,33 @@ font-size: var(--font-size-section-title);
   position: relative;
 
 }
-.vidoe
+.contact-form{
+
+  margin: 0 auto;
+
+}
+.contact-form .form-control{
+  background-color: var(--color-light);
+  border: none;
+  margin-bottom: var(--size-half);
+}
+.contact-form .form-group i {
+  top: var(--size-half);
+}
+.map-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: var(--size-half);
+}
+
+
+/* footer */
+.footer {
+  background-color: var(--color-secondary);
+}
+.footer p {
+  padding: var(--padding-primary) 0;
+  color: chocolate;
+  text-align:  center;
+  margin-bottom: 0;
+}

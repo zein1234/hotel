@@ -24,24 +24,24 @@
     <div class="container">
       <a class="navbar-brand" href="#">
         <img class="logo" src="./assets/img/app-logo.png" alt="site logo">
-        <span class="logo-text">Level</span>
+        <h1 class="logo-text">Level</h1>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav  ms-auto">
-          <a class="level-nav-link nav-link active" aria-current="page" href="#">Home</a>
-          <a class="level-nav-link nav-link" href="#">Portfolio</a>
-          <a class="level-nav-link nav-link" href="#">blog</a>
-          <a class="level-nav-link nav-link" href="#">content</a>
+          <a class="level-nav-link nav-link active" aria-current="page" href="#">Search</a>
+          <a class="level-nav-link nav-link" href="#Services">Services</a>
+          <a class="level-nav-link nav-link" href="#Recommends">Recommends</a>
+          <a class="level-nav-link nav-link" href="#Contact">Contact</a>
         </div>
       </div>
     </div>
   </nav>
 
 
-  <div class="hero">
+  <div id="search-form" class="hero">
     <div class="container">
       <form action="index.html" method="get" class="search-form">
         <div class="form-group" style="flex: 100%;">
@@ -125,7 +125,7 @@
     </div>
   </section>
 <!-- services -->
-  <section>
+  <section id="Services">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="section-down-arrow">
       <polygon fill="var(--color-primary)" points="0,0 100,0 50,50"></polygon>
 
@@ -156,8 +156,9 @@
       </div>
     </div>
   </section>
+
   <!-- slider -->
-  <section class="section-gray">
+  <section id="Recommends" class="section-gray">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
@@ -248,14 +249,61 @@
     </div>
   </section>
 
-  <section class="video">
+  <!-- <section class="video">
     <div class="video-container">
       <video level-video>
         src="./assets/" type="video/mp4">
         your browser does not supposrt video
       </video>
     </div>
+  </section> -->
+  <section id="Contact">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151733.31849274147!2d8.410586933796822!3d53.54289418711572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b6b111c4204e61%3A0x426cf77630073a0!2sBremerhaven!5e0!3m2!1sen!2sde!4v1686050348893!5m2!1sen!2sde" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6">
+            <form action="" class="contact-form">
+                <div class="form-group">
+                  <input type="text" name="" id="" class="form-control" placeholder="Nmae"  required>
+                  <i class="fa fa-user"></i>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" name="" id="" class="form-control" placeholder="Email" required>
+                  <i class="fa fa-envelope"></i>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" name="" id="" class="form-control" placeholder="Subject" required>
+                  <i class="fa fa-book"></i>
+                </div>
+
+                <div class="form-group">
+                  <textarea type="text" rows="9" class="form-control"  placeholder="Message" required></textarea>
+                  <i class="fa fa-commenting"></i>
+                </div>
+                <button tybe="submit" class="btn btn-primary">  Send Message Now</button>
+            </form>
+        </div>
+      </div>
+
+    </div>
+
+
   </section>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Copyright &copy; 2023 Zain Srio -Design
+        <a href="https://www.zainsrio.com"></a>
+      </p>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
